@@ -1,0 +1,19 @@
+Covariance analysis log, written Sat Feb 18 00:33:58 2023
+
+Program: covar
+Working directory: /home/dbanerjee/github/usl-laio/ex01
+
+Read 1000 frames from fit_1_rt.pdb (time 0 to 0 ps)
+Read reference structure for fit from first.pdb
+
+Analysis group is 'C-alpha' (10 atoms)
+Fit group is 'System' (166 atoms)
+Analysis is non-mass weighted
+Fit is mass weighted
+Diagonalized the 30x30 covariance matrix
+Trace of the covariance matrix before diagonalizing: 0.242476
+Trace of the covariance matrix after diagonalizing: 0.242476
+
+Wrote 30 eigenvalues to eigenval.xvg
+Wrote average structure to average.pdb and eigenvec.trr
+Wrote eigenvectors 1 to 30 to eigenvec.trr

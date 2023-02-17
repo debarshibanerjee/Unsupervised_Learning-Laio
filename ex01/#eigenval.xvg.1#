@@ -1,0 +1,47 @@
+# This file was created Sat Feb 18 00:33:58 2023
+# Created by:
+#              :-) GROMACS - gmx covar, 2021.4-Ubuntu-2021.4-2 (-:
+# 
+# Executable:   /usr/bin/gmx
+# Data prefix:  /usr
+# Working dir:  /home/dbanerjee/github/usl-laio/ex01
+# Command line:
+#   gmx covar -s first.pdb -f fit_1_rt.pdb
+# gmx covar is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Eigenvalues of the covariance matrix"
+@    xaxis  label "Eigenvector index"
+@    yaxis  label "(nm\S2\N)"
+@TYPE xy
+         1 0.0788357
+         2 0.0443561
+         3 0.0241397
+         4 0.0167877
+         5 0.014744
+         6 0.0104101
+         7 0.00951743
+         8 0.00795445
+         9 0.00593574
+        10 0.00476815
+        11 0.00387698
+        12 0.00384921
+        13 0.00266416
+        14 0.00230723
+        15 0.00193722
+        16 0.00162428
+        17 0.001606
+        18 0.0013401
+        19 0.00110512
+        20 0.000906434
+        21 0.00081374
+        22 0.000668445
+        23 0.000509254
+        24 0.000463509
+        25 0.000409236
+        26 0.000313567
+        27 0.000232717
+        28 0.000170822
+        29 0.000133794
+        30 9.48535e-05

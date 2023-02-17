@@ -1,0 +1,16 @@
+1. When doing eigenval analysis with Gromacs, choose "0" (system) for least squares fit.
+But choose "3" (C-alpha) for the covariance analysis.
+
+To get the eigenvalue spectrum:
+gmx covar -s first.pdb -f fit_1_rt.pdb
+
+Go with "-fit rot+trans" file since that best reproduces the eigenvalue spectrum that your code gets.
+That is also what it precisely asks in the assignment.
+
+
+
+2.To project along an eigenvector and see the motion:
+
+gmx anaeig -s first.pdb -f fit_1_rt.pdb -filt pc1.pdb -first 1 -last 1
+
+Again choose "0" (for least squares fit) and "3" for eigenvectors (should be same values as in first step).
