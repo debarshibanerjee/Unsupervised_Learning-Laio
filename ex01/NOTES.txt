@@ -14,3 +14,6 @@ That is also what it precisely asks in the assignment.
 gmx anaeig -s first.pdb -f fit_1_rt.pdb -filt pc1.pdb -first 1 -last 1
 
 Again choose "0" (for least squares fit) and "3" for eigenvectors (should be same values as in first step).
+
+3. Smooothen the motion along the first eigenvector
+gmx anaeig -s first.pdb -f fit_1_rt.pdb  -extr extreme1.pdb -first 1 -last 1 -nframes 1000
